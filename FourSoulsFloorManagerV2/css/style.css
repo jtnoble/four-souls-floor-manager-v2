@@ -1,0 +1,92 @@
+@font-face {
+    font-family: upheaval;
+    src: url("fonts/upheavtt.ttf") format("truetype");
+}
+@font-face {
+    font-family: b_foursouls;
+    src: url("fonts/foursouls_body.ttf") format("truetype");
+}
+@font-face {
+    font-family: t_foursouls;
+    src: url("fonts/foursouls_title.ttf") format("truetype");
+}
+
+body{
+    overflow: hidden;
+    background-color: black;
+}
+
+#main-background-img{
+    position: absolute;
+    text-align: center;
+    filter: brightness(60%);
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+h1{
+    position: relative;
+    font-family: upheaval;
+    font-size: 80px;
+    margin: auto;
+    top: 10px;
+    text-align: center;
+    color: white;
+    animation-duration: 2s;
+    animation-name: slidein;
+}
+#description{
+    position: absolute;
+    bottom:0px;
+    left: 20px;
+    right: 20px;
+    font-family: b_foursouls;
+    font-size: 80px;
+    color: white;
+    text-align: center;
+}
+#button-container{
+    position: relative;
+    margin: auto;
+    top: 100px;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    gap: 30px;
+    animation-duration: 2s;
+    animation-name: slidein;
+}
+@keyframes slidein {
+    from {
+        margin-top: 100%;
+        height: 300%;
+      }
+    
+      to {
+        margin-top: 0%;
+        height: 100%;
+      }
+}
+.buttons-created{
+    background-color: rgba(20, 20, 20, 0.8);
+    border: 0px;
+    font-family: b_foursouls;
+    font-size: 32px;
+    color: white;
+    width: 300px;
+    height: 180px;
+}
+#reloader-btn{
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    background-color: rgba(20, 20, 20, 0.8);
+    border: 0px;
+    font-family: b_foursouls;
+    font-size: 16px;
+    color: white;
+    width: 150px;
+    height: 90px;
+}
