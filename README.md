@@ -4,6 +4,9 @@ A simple manager for a floor-based ruleset for the card game, "The Binding of Is
 # What is this?
 This is an application that displays the information for each floor in a floor based ruleset for "Four Souls", a card game created for the popular video game "The Binding of Isaac". The original rules in the game do not use a floor based layout, but instead have you attacking monsters directly. This is fine, but sometimes you aren't guarenteed a soul card for many turns. This keeps the pace of the game steady; however, it can be a little hard to remember the rules of the floor you are on. This Tkinter-powered Python application hopefully helps with that.
 
+# How to run
+You can either open up the "index.html" file to open in your browser, or use the "run.bat" batch file. Both do the same thing. Keep in mind, I have only tested this with Mozilla Firefox.
+
 # Where can I learn about Four Souls?
 You can learn more about Four Souls at https://foursouls.com/
 
