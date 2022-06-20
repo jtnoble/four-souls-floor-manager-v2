@@ -144,11 +144,11 @@ function ChooseFloor(floor_name){
             floor_img = "css/images/Corpse.png";
             break;
         case "Cathedral":
-            floor_description = "You feel holy. If you save another player from death, you and that player gain a permanent +1 max HP.";
+            floor_description = "You feel holy. If you survive this floor without taking damage, gain a permanent +1 max HP.";
             floor_img = "css/images/Cathedral.png";
             break;
         case "Sheol":
-            floor_description = "You feel evil. If you take damage here, deal 1 damage to every face-up monster.";
+            floor_description = "You feel evil. If you take damage here, deal 1 damage to a player at random [Roll a dice: You are #1, The player to your left is #2, and so on].";
             floor_img = "css/images/Sheol.png";
             break;
         case "The Chest":
